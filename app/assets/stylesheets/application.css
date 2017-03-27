@@ -1,0 +1,100 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.header{
+    height: 50px;
+    background-color: #333;
+    font-family:'Raleway', sans-serif;
+    text-align:center;
+}
+.nav{
+    list-style-type:none;
+    margin:0;
+    padding-top: 20px;
+
+}
+a:hover{
+    background-color: grey;
+    
+}
+a:active{
+    color:black;
+}
+.nav li{
+    display:inline;
+    font-family:'Raleway', sans-serif;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin-right: 40px;
+
+}
+.list{
+    color:white;
+    text-decoration:none;
+}
+.opening{
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Raleway', sans-serif;
+    text-align:center;
+    background-image: url('https://i.ytimg.com/vi/R-BeyzGX6eQ/maxresdefault.jpg'); 
+    
+}
+.image1{
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding-top: 130px;
+}  
+.opening .image1 h1{
+    background-color: black;
+}
+ .opening .image1 h1 span{
+    background-color: black;
+}   
+
+.poster{
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+  
+}
+.main{
+    display:inline;
+    font-family:'Raleway', sans-serif;
+    text-align:center;
+}
+.who, .what, .contribute{
+    float:left;
+    width:33%;
+}
+.foot{
+    font-family:'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    text-align:center;
+clear:both;
+   background-color:#333;
+   color:#fff;
+   padding: 5px 0;
+}
